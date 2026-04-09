@@ -1,10 +1,11 @@
 package org.iesra
-
 import java.io.File
 
-class LectorArchivo {
+class LectorArchivo(ruta: String) : ILectorLog {
+    private val rutaArchivo = ruta
 
-    fun leer(ruta: String): List<String> {
-        return File(ruta).readLines()
+    override fun leerLineas(): List<String> {
+        return File(rutaArchivo).readLines()
     }
 }
+

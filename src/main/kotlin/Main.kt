@@ -1,12 +1,14 @@
 package org.iesra
 
-
 fun main() {
 
-    val lector = LectorArchivo()
-    // val mostrador = MostrarArchivo()
+    val lector: ILectorLog = LectorArchivo("archivo.txt")
+    val lineas = lector.leerLineas()
 
-    val lineas = lector.leer("archivo.txt")
+    val procesador = ProcesadorLog(lineas)
+    procesador.procesar()
 
-    // mostrador.mostrar(lineas)
+    val mostrar = MostrarArchivo()
+    mostrar.mostrar(procesador)
+    mostrar.guardar(procesador, "informe.txt")
 }
