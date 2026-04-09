@@ -1,0 +1,30 @@
+[2025-01-15 10:30:15] INFO Aplicación iniciada
+[2025-01-15 10:30:20] ERROR Error de conexión a BD
+[2025-01-15 10:30:25] WARNING Reintentando conexión
+[2025-01-15 10:30:30] INFO Conexión restaurada
+[2025-01-15 10:31:00] INFO Usuario iniciado sesión
+[2025-01-15 10:31:10] WARNING Tiempo de respuesta alto
+[2025-01-15 10:31:15] ERROR Error al guardar datos
+[2025-01-15 10:31:20] INFO Datos cargados correctamente
+[2025-01-15 10:31:25] WARNING Memoria cerca del límite
+[2025-01-15 10:31:30] INFO Procesamiento de tarea completado
+[2025-01-15 10:32:00] INFO Usuario cerrado sesión
+[2025-01-15 10:32:05] ERROR No se pudo enviar correo
+[2025-01-15 10:32:10] WARNING Intento de reconexión
+[2025-01-15 10:32:15] INFO Conexión establecida
+[2025-01-15 10:32:20] INFO Generando informe diario
+[2025-01-15 10:32:25] WARNING Disco casi lleno
+[2025-01-15 10:32:30] ERROR Error de permisos en archivo
+[2025-01-15 10:32:35] INFO Informe generado correctamente
+[2025-01-15 10:33:00] INFO Servicio de backup iniciado
+[2025-01-15 10:33:05] WARNING Backup tardando más de lo esperado
+[2025-01-15 10:33:10] ERROR Backup fallido
+[2025-01-15 10:33:15] INFO Intentando nuevo backup
+[2025-01-15 10:33:20] INFO Backup completado correctamente
+[2025-01-15 10:33:25] WARNING Espacio en disco bajo
+[2025-01-15 10:33:30] INFO Limpieza de archivos temporales iniciada
+[2025-01-15 10:33:35] INFO Archivos temporales eliminados
+[2025-01-15 10:33:40] ERROR No se pudo eliminar archivo bloqueado
+[2025-01-15 10:33:45] WARNING Error menor ignorado
+[2025-01-15 10:33:50] INFO Sistema estable
+[2025-01-15 10:59:55] INFO Tarea programada ejecutada
