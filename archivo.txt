@@ -21,6 +21,7 @@
 [2025-01-15 10:33:10] ERROR Backup fallido
 [2025-01-15 10:33:15] INFO Intentando nuevo backup
 [2025-01-15 10:33:20] INFO Backup completado correctamente
+dasdawd
 [2025-01-15 10:33:25] WARNING Espacio en disco bajo
 [2025-01-15 10:33:30] INFO Limpieza de archivos temporales iniciada
 [2025-01-15 10:33:35] INFO Archivos temporales eliminados
